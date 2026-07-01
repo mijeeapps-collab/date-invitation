@@ -12,24 +12,24 @@ export default function Home() {
         <h1 className="text-5xl mb-6">❤️</h1>
 
         <h2 className="text-4xl font-bold text-pink-600 mb-6">
-          一緒にデートに行きませんか？
+          Хатагтай Энхзул та надтай болзоонд явах уу？
         </h2>
 
         <p className="text-gray-700 leading-8 text-lg">
-          いつもありがとう。
+          Чамтай танилцсандаа их азтай гэж боддог. <br />
           <br />
-          一緒にいる時間が本当に楽しいです。
+          Би чамд нэгэн санал тавихыг хүсч байна. <br />
           <br />
           <br />
-          もし予定が合えば、
+          Хэрвээ боломжтой бол, надтай хамтдаа нэгэн өдрийг өнгөрөөхийг хүсч байна. <br />  
           <br />
-          今度一緒に出かけませんか？
+          Хэрвээ та сонирхож байвал, доорх товчлуур дээр дарж надад мэдэгдээрэй. <br />
         </p>
 
         <div className="mt-8 space-y-2 text-gray-600">
-          <p>📅 7月○日（土）</p>
-          <p>📍 ○○駅集合</p>
-          <p>🍽 ランチ → 水族館 → カフェ</p>
+          <p>📅 8月6日（Пүрэв）</p>
+          <p>📍 Цуглах газар: Токио төв буудал</p>
+          <p>🍽 Өдрийн зоог → Аквариум → Кафе</p>
         </div>
 
         {!accepted ? (
@@ -38,23 +38,23 @@ export default function Home() {
               onClick={() => setAccepted(true)}
               className="rounded-full bg-pink-500 px-8 py-3 text-white font-bold hover:bg-pink-600 transition"
             >
-              ❤️ はい、行きたい！
+              ❤️ Тийм. Хамт явья！
             </button>
 
             <button
               className="rounded-full border border-pink-400 px-8 py-3 text-pink-600 hover:bg-pink-50 transition"
             >
-              😊 別の日なら大丈夫
+              😊 Өөр өдөр зүгээрээ.
             </button>
           </div>
         ) : (
           <div className="mt-10">
             <h3 className="text-3xl font-bold text-pink-600">
-              🎉 ありがとう！！
+              🎉 Баярлалаа！！
             </h3>
 
             <p className="mt-4 text-lg">
-              一緒に楽しもうね ❤️
+              Хамт нэгэн өдрийг хөгжилтэй өнгөрөөе ❤️
             </p>
           </div>
         )}
