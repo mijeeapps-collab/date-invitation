@@ -19,6 +19,8 @@ export default function Home() {
     });
   };
 
+  const [noText, setNoText] = useState("😊 Өөр өдөр зүгээрээ。");
+
   return (
     <main className="min-h-screen bg-gradient-to-b from-pink-100 via-rose-50 to-white flex items-center justify-center p-6">
       <div className="max-w-xl w-full rounded-3xl bg-white/80 backdrop-blur-lg shadow-2xl p-10 text-center">
@@ -56,9 +58,10 @@ export default function Home() {
             </button>
 
             <button
+              onClick={() => setNoText("Үгүй 🙂‍↔️ хажуу талын товчыг дар!")}
               className="rounded-full border border-pink-400 px-8 py-3 text-pink-600 hover:bg-pink-50 transition"
             >
-              😊 Өөр өдөр зүгээрээ.
+              {noText}
             </button>
           </div>
         ) : (
