@@ -46,6 +46,7 @@ export default function Home() {
           <p>📅 8月6日（Пүрэв）</p>
           <p>📍 Цуглах газар: Токио төв буудал</p>
           <p>🍽 Өдрийн зоог → Аквариум → Кафе</p>
+          <p>Тэр өдөрт чиний хүссэн газруудаар явж болно 🫠</p>
         </div>
 
         {!accepted ? (
@@ -58,11 +59,11 @@ export default function Home() {
             </button>
 
             <button
-              onClick={() => setNoText("Үгүй 🙂‍↔️ хажуу талын товчыг дар!")}
-              className="rounded-full border border-pink-400 px-8 py-3 text-pink-600 hover:bg-pink-50 transition"
-            >
-              {noText}
-            </button>
+            onClick={() => setNoText("Үгүй 🙂‍↔️ хажуу талын товчыг дар!")}
+            className="rounded-full border border-pink-400 px-8 py-3 text-pink-600 hover:bg-pink-50 transition max-w-xs w-full sm:w-auto whitespace-normal text-center"
+          >
+            {noText}
+          </button>
           </div>
         ) : (
           <div className="mt-10">
