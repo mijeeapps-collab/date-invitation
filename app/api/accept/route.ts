@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
+  console.log("API called");
   const body = await req.json();
 
   const message =
