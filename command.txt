@@ -3,5 +3,5 @@ cd C:\Users\Mijee\date-invitation
 
 サイト更新コマンド
 git add .
-git commit -m "Create project structure button size"
+git commit -m "Create project structure yes"
 git push

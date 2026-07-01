@@ -59,7 +59,7 @@ export default function Home() {
             </button>
 
             <button
-            onClick={() => setNoText("Үгүй 🙂‍↔️ хажуу талын товчыг дар!")}
+            onClick={() => setNoText("Үгүй 🙂‍↔️ Тийм товчыг дар!")}
             className="rounded-full border border-pink-400 px-8 py-3 text-pink-600 hover:bg-pink-50 transition max-w-xs w-full sm:w-auto whitespace-normal text-center"
           >
             {noText}
