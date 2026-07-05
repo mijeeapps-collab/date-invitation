@@ -55,7 +55,7 @@ export default function Home() {
               onClick={handleAccept}
               className="rounded-full bg-pink-500 px-8 py-3 text-white font-bold hover:bg-pink-600 transition"
             >
-              ❤️ Тийм. Хамт явья！
+              ❤️ Тийм. Мэдээж би явна！！
             </button>
 
             <button
